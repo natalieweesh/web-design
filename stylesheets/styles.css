@@ -181,9 +181,15 @@ a{
 	padding: 4px;
 	right: -4px;
 	padding-right: 50px;
+	display: inline-block;
+	height: 113px;
 	transition: color 0.2s linear;
 }
-#footer a:hover {
+#footer a span {
+	margin-right: -19px;
+	padding: 0.25em 1em;
+}
+#footer a:hover span {
 	background-color: #C2C2C2;
 	color: #ffffff;
 }
